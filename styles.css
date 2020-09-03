@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Syne', sans-serif;
+  font-weight: normal;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container__wrapper {
+  margin-top: 20px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-top: 1px solid #333333;
+}
+
+.info__container {
+  margin: 8px 0;
+}
+
+.image {
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.title_bold {
+  font-weight: bold;
+}
+
+.text {
+  display: block;
+  font-size: 22px;
+}
+
+.text_bold {
+  font-weight: bold;
+}
+
+.text_blue {
+  color: blue;
+  font-weight: bold;
+}
